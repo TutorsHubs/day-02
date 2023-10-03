@@ -1,0 +1,57 @@
+/* global selector */
+/* id selector */
+/* classes */
+
+button {
+    background: red;
+}
+
+/* id selectors */
+#button {
+    background: black;
+    color: white;
+}
+
+/* class selectors */
+.mybuttons {
+    color: green;
+}
+
+/* COLORS */
+/* three ways of defining color */
+/* name */
+/* red, blue, green */
+
+/* rgb */
+/* red, green, blue */
+/* concentration of the three colors */
+/* starts from 0 to 255 */
+/* red 50, green 60, blue 70 */
+
+h1 {
+    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 255);
+    color: rgba(0, 255, 0);
+    color: rgb(34, 255, 255);
+    color: rgb(138, 214, 38);
+    color: rgb(0, 0, 0);
+}
+
+/* hex colors */
+h1 {
+    /* white */
+    /* 3 for common colors */
+    color: #fff;
+
+    /* black */
+    color: #000;
+
+    /* grey */
+    color: #ccc;
+
+    /* 6 default */
+    color: #000000;
+
+    color: #8ea838;
+    color: rgb(32, 91, 136);
+}
